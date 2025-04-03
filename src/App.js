@@ -59,7 +59,11 @@ function App() {
           <br />
           Limited to the first 5 bookings in Janesville.
         </p>
-        <form onSubmit={handleSubmit}>
+        <form 
+  action="https://formsubmit.co/etsy327@gmail.com" 
+  method="POST"
+>
+
           <input
             type="text"
             name="name"
