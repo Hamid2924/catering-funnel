@@ -12,11 +12,6 @@ function App() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Thanks! We’ll be in touch shortly to confirm your catering event.");
-    setForm({ name: "", email: "", eventDetails: "" });
-  };
 
   return (
     <div
