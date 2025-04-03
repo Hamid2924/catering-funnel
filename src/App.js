@@ -57,7 +57,7 @@ function App() {
           This week only: Book your event and get a{" "}
           <strong>FREE dessert platter</strong> 🍰!
           <br />
-          Limited to the first 10 bookings in Janesville.
+          Limited to the first 5 bookings in Janesville.
         </p>
         <form onSubmit={handleSubmit}>
           <input
